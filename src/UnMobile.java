@@ -1,33 +1,46 @@
-import java.awt.*;
-import javax.swing.*;
+import javax.swing.JPanel;
+import java.awt.Graphics;
 
-class UnMobile extends JPanel implements Runnable
-{
-    int saLargeur, saHauteur, sonDebDessin;
-    final int sonPas = 10, sonTemps=50, sonCote=40;
-    
-    UnMobile(int telleLargeur, int telleHauteur)
-    {
-	super();
-	saLargeur = telleLargeur;
-	saHauteur = telleHauteur;
-	setSize(telleLargeur, telleHauteur);
-    }
+public class UnMobile extends JPanel implements Runnable {
+	private int saLargeur, saHauteur, coordMobile;
+	private final int sonPas = 10, sonTemps = 50, sonCote = 40;
+	private boolean dirDroite = true;  // Variable de direction, True = droite, false = gauche
 
-    public void run()
-    {
-	for (sonDebDessin=0; sonDebDessin < saLargeur - sonPas; sonDebDessin+= sonPas)
-	    {
-		repaint();
-		try{Thread.sleep(sonTemps);}
-		catch (InterruptedException telleExcp)
-		    {telleExcp.printStackTrace();}
-	    }
-    }
+	public UnMobile(int telleLargeur, int telleHauteur) {
+		super();
+		this.saLargeur = telleLargeur;
+		this.saHauteur = telleHauteur;
+		setSize(telleLargeur, telleHauteur);
+	}
 
-    public void paintComponent(Graphics telCG)
-    {
-	super.paintComponent(telCG);
-	telCG.fillRect(sonDebDessin, saHauteur/2, sonCote, sonCote);
-    }
+	public void run() {
+		while (true) { // Boucle infinie pour que le mouvement continue
+			// Avance ou recule en fonction de la direction actuelle
+			if (dirDroite) {
+				coordMobile += sonPas;
+				if (coordMobile >= saLargeur - sonCote) {
+					dirDroite = false;  // Inverse la direction
+				}
+			} else {
+				coordMobile -= sonPas;
+				if (coordMobile <= 0) {
+					dirDroite = true;  // Inverse la direction
+				}
+			}
+
+			// Redessine le mobile
+			repaint();
+
+			try {
+				Thread.sleep(sonTemps);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public void paintComponent(Graphics telContexteGraphique) {
+		super.paintComponent(telContexteGraphique);
+		telContexteGraphique.fillRect(coordMobile, saHauteur / 2, sonCote, sonCote);
+	}
 }
