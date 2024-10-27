@@ -3,7 +3,8 @@ public abstract class semaphore {
     protected int valeur=0;
 
     protected semaphore (int valeurInitiale){
-	valeur = valeurInitiale>0 ? valeurInitiale:0;
+
+        valeur = valeurInitiale>0 ? valeurInitiale:0;
     }
 
     public synchronized void syncWait(){
@@ -16,6 +17,6 @@ public abstract class semaphore {
     }
 
     public synchronized void syncSignal(){
-	if(++valeur > 0) notifyAll();
+        if(++valeur > 0) notifyAll();
     }
 }

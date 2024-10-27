@@ -5,9 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7075eb-0188-45b6-b467-314af125688a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UneFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UneFenetre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/AffichageSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/MainAffichage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/TP2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Affichage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/AffichageSemaphore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Exclusion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/MainAffichage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/TP2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/semaphore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/semaphoreBinaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/Affichage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Affichage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/semaphore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,18 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/telle/OneDrive/Documents/IUT/3e Année/Semestre 5/R5.A.05 Programmaton avancée/TP1/TP_Thread/TP1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +72,7 @@
       <workItem from="1727422097095" duration="2817000" />
       <workItem from="1729840327329" duration="1069000" />
       <workItem from="1729841545955" duration="4170000" />
+      <workItem from="1730044304947" duration="760000" />
     </task>
     <servers />
   </component>

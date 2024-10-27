@@ -6,7 +6,7 @@ import java.lang.String;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main (String[] args) {
 		// TODO Auto-generated method stub
 		Affichage TA = new Affichage("AAA");
 		Affichage TB = new Affichage("BB");
@@ -17,7 +17,6 @@ public class Main {
 		TC.start();
 		TB.start();
 		TD.start();
-
 
 	}
 
