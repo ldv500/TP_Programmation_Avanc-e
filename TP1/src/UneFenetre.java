@@ -70,9 +70,4 @@ public class UneFenetre extends JFrame {
         // Rendre la fenêtre visible
         setVisible(true);
     }
-
-    public static void main(String[] args) {
-        // Créer une instance de UneFenetre pour tester
-        new UneFenetre(400, 300);  // taille arbitraire pour la fenêtre
-    }
 }
