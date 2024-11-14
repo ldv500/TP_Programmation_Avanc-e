@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7075eb-0188-45b6-b467-314af125688a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/AffichageSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/MainAffichage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/TP2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Affichage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/AffichageSemaphore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Exclusion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/MainAffichage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/TP2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/semaphore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/semaphoreBinaire.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP2/Affichage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Affichage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP2/semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/semaphore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +48,7 @@
       <workItem from="1727422097095" duration="2817000" />
       <workItem from="1729840327329" duration="1069000" />
       <workItem from="1729841545955" duration="4170000" />
-      <workItem from="1730044304947" duration="760000" />
+      <workItem from="1730044304947" duration="1450000" />
     </task>
     <servers />
   </component>
