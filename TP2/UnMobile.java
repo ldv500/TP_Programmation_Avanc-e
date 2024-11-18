@@ -25,11 +25,9 @@ public class UnMobile extends JPanel implements Runnable {
 				coordMobile += sonPas;
 				if (lenSegment <= coordMobile &  coordMobile <= lenSegment + sonPas) {
 					semaphoreBinaire.syncWait();
-					System.out.println("Entrée SC");
 				}
 				if (saLargeur - lenSegment <= coordMobile &  coordMobile <= saLargeur- lenSegment + sonPas) {
 					semaphoreBinaire.syncSignal();
-					System.out.println("Sortie SC");
 				}
 				if (coordMobile >= saLargeur - sonCote) {
 					dirDroite = false;  // Inverse la direction
@@ -38,11 +36,9 @@ public class UnMobile extends JPanel implements Runnable {
 				coordMobile -= sonPas;
 				if (saLargeur - lenSegment - sonPas <= coordMobile & coordMobile <= saLargeur -lenSegment ) {
 					semaphoreBinaire.syncWait();
-					System.out.println("Entrée SC");
 				}
 				if (lenSegment - sonPas <= coordMobile & coordMobile <= lenSegment){
 					semaphoreBinaire.syncSignal();
-					System.out.println("Sortie SC");
 				}
 				if (coordMobile <= 0) {
 					dirDroite = true;  // Inverse la direction

@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3d7075eb-0188-45b6-b467-314af125688a" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../TP2/mainSemaphoreMobiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/UnMobile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/UneFenetre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP2/out/production/TP2/mainSemaphoreMobiles.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP2/UnMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/UnMobile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP2/UneFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/UneFenetre.java" afterDir="false" />
@@ -74,7 +78,7 @@
       <workItem from="1729840327329" duration="1069000" />
       <workItem from="1729841545955" duration="4170000" />
       <workItem from="1730044304947" duration="1450000" />
-      <workItem from="1731594760055" duration="6594000" />
+      <workItem from="1731594760055" duration="7358000" />
     </task>
     <servers />
   </component>
