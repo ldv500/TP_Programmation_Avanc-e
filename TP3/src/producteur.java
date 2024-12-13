@@ -1,18 +1,23 @@
 import java.util.Scanner;
 
-public class producteur extends Thread{
+public class producteur extends Thread {
+    private BAL bal;
 
-    private BAL Bal ;
-
-    public producteur (BAL Bal) {
-        this.Bal = Bal ;
+    public producteur(BAL bal) {
+        this.bal = bal;
     }
 
+    @Override
     public void run() {
-        Scanner scanner = new Scanner(System.in) ;
-        String lettre ;
-        System.out.println("Entrez la prochaine lettre (Q pour arrêter");
-        lettre = scanner.nextLine() ;
-        Bal.deposer(lettre);
+        String lettres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ*";
+        for (char c : lettres.toCharArray()) {
+            bal.deposer(String.valueOf(c));
+            try {
+                Thread.sleep(100); // Simulation de délai de production
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                System.out.println("Producteur interrompu.");
+            }
+        }
     }
 }
