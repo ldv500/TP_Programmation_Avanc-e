@@ -1,9 +1,13 @@
-Ce dossier contient les codes sources à étudier,
-téléchargés depuis les pages web suivantes :
- - Code 1 : Assignment102.java , Auteur : Karthik Jain (Software Developer, https://www.krthkj.com)
- 
-https://gist.github.com/krthkj/9c1868c1f69142c2952683ea91ca2a37
+Distributed version of MC for PI using Java socket.
 
-- Code 2 : Pi.java, Auteur : Dr. Steve Kautz, Enseignant, IOWA State University; https://faculty.sites.iastate.edu/smkautz/
+usage on a localhost: 
+One terminal for Master
+One terminal for each Worker
 
-http://web.cs.iastate.edu/~smkautz/cs430s14/examples/thread_pool_examples/pi/Pi.java
+on each server terminal (Worker):
+make
+java WorkerSocket <port>
+
+on client terminal (Master):
+make
+make run
